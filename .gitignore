@@ -1,0 +1,7 @@
+/blib/
+/src/*.o
+/Makefile
+/resources/*.so
+/resources/*.dylib
+.precomp/
+/Math-Libgsl-Complex-*

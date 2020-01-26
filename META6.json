@@ -1,0 +1,28 @@
+{
+  "auth" : "cpan:FRITH",
+  "authors" : [
+    "Fernando Santagata"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "LibraryMake"
+  ],
+  "description" : "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
+  "license" : "Artistic-2.0",
+  "name" : "Math::Libgsl::Complex",
+  "perl" : "6.c",
+  "provides" : {
+    "Math::Libgsl::Complex" : "lib/Math/Libgsl/Complex.rakumod",
+    "Math::Libgsl::Raw::Complex" : "lib/Math/Libgsl/Raw/Complex.rakumod"
+  },
+  "resources" : [
+    "libraries/gslhelper"
+  ],
+  "source-url" : "git://github.com/frithnanth/perl6-Math-Libgsl-Complex.git",
+  "tags" : [
+    "math",
+    "nativecall"
+  ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
