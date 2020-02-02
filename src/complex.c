@@ -31,10 +31,21 @@ void mgsl_complex_rect(double x, double y, gsl_complex *res)
   *res = ret;
 }
 
+void mgsl_complex_float_rect(float x, float y, gsl_complex_float *res)
+{
+  GSL_SET_COMPLEX(res, x, y);
+}
+
 void mgsl_complex_polar(double r, double theta, gsl_complex *res)
 {
   gsl_complex ret = gsl_complex_polar(r, theta);
   *res = ret;
+}
+
+void mgsl_complex_float_polar(float r, float theta, gsl_complex_float *res)
+{
+  gsl_complex ret = gsl_complex_polar((double)r, (double)theta);
+  GSL_SET_COMPLEX(res, ret.dat[0], ret.dat[1]);
 }
 
 /* Properties */
