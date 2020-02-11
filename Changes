@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Complex
 
 {{$NEXT}}
+0.0.3 2020-02-11T13:36:41+01:00
+    - Fix a bug in complex_float allocation
 
 0.0.2 2020-02-02T15:13:19+01:00
     - Add rect and polar for the complex_float datatype
