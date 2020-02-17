@@ -18,7 +18,7 @@
   "resources" : [
     "libraries/gslhelper"
   ],
-  "source-url" : "git://github.com/frithnanth/perl6-Math-Libgsl-Complex.git",
+  "source-url" : "git://github.com/frithnanth/raku-Math-Libgsl-Complex.git",
   "tags" : [
     "math",
     "nativecall"
