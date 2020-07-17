@@ -7,8 +7,6 @@ use LibraryMake;
 
 constant GSLHELPER = %?RESOURCES<libraries/gslhelper>.absolute;
 
-constant LIB  = ('gsl', v23);
-
 class gsl_complex is repr('CStruct') is export {
   HAS num64 @.dat[2] is CArray;
 }
