@@ -1,5 +1,5 @@
 use v6.c;
-unit class Math::Libgsl::Complex:ver<0.0.1>:auth<zef:FRITH>;
+unit class Math::Libgsl::Complex:ver<0.0.4>:auth<zef:FRITH>;
 
 =begin pod
 

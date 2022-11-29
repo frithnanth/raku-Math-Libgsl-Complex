@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Complex
 
 {{$NEXT}}
+
+0.0.4  2022-11-29T16:00:19+01:00
     - Use zef ecosystem
     - Use Github CI
     - Use Distribution::Builder::MakeFromJSON to compile resources
