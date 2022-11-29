@@ -1,5 +1,5 @@
 use v6.c;
-unit class Math::Libgsl::Complex:ver<0.0.1>:auth<cpan:FRITH>;
+unit class Math::Libgsl::Complex:ver<0.0.1>:auth<zef:FRITH>;
 
 =begin pod
 
@@ -9,7 +9,7 @@ Math::Libgsl::Raw::Complex - An interface to libgsl, the Gnu Scientific Library 
 
 =head1 SYNOPSIS
 
-=begin code :lang<perl6>
+=begin code :lang<raku>
 
 use Math::Libgsl::Raw::Complex :ALL;
 

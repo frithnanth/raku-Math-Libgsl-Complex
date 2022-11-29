@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Complex.svg?branch=master)](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Complex)
+[![Actions Status](https://github.com/frithnanth/raku-Math-Libgsl-Complex/workflows/test/badge.svg)](https://github.com/frithnanth/raku-Math-Libgsl-Complex/actions)
 
 NAME
 ====
@@ -8,7 +8,7 @@ Math::Libgsl::Raw::Complex - An interface to libgsl, the Gnu Scientific Library 
 SYNOPSIS
 ========
 
-```perl6
+```raku
 use Math::Libgsl::Raw::Complex :ALL;
 ```
 
@@ -31,8 +31,8 @@ Prerequisites
 
 This module requires the libgsl library to be installed. Please follow the instructions below based on your platform:
 
-Debian Linux
-------------
+Debian Linux and Ubuntu 20.04
+-----------------------------
 
     sudo apt install libgsl23 libgsl-dev libgslcblas0
 
