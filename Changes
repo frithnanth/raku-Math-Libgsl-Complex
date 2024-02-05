@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Complex
 
 {{$NEXT}}
+
+0.0.5  2024-02-05T11:24:41Z
     - Drop the obsolete .absolute call :-)
 
 0.0.4  2022-11-29T16:00:19+01:00
