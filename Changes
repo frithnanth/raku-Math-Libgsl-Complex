@@ -1,6 +1,7 @@
 Revision history for Math-Libgsl-Complex
 
 {{$NEXT}}
+    - Drop the obsolete .absolute call :-)
 
 0.0.4  2022-11-29T16:00:19+01:00
     - Use zef ecosystem

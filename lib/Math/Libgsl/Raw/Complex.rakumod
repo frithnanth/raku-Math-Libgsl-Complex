@@ -4,7 +4,7 @@ unit module Math::Libgsl::Raw::Complex:ver<0.0.4>:auth<zef:FRITH>;
 
 use NativeCall;
 
-constant GSLHELPER = %?RESOURCES<libraries/gslhelper>.absolute;
+constant GSLHELPER = %?RESOURCES<libraries/gslhelper>;
 
 class gsl_complex is repr('CStruct') is export {
   HAS num64 @.dat[2] is CArray;
